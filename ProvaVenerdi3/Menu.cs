@@ -158,7 +158,7 @@ namespace ProvaVenerdi3
 
             foreach (var podc in podcast)
             {
-                Console.WriteLine(podc.Print());
+                Console.WriteLine(podc.Print2());
             }
         }
 

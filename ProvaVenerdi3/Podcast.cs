@@ -25,5 +25,9 @@ namespace ProvaVenerdi3
         {
             return $"{base.Print()} |Descrizione: {Descrizione} |Episodi: {Episodi.Titolo} - {Episodi.Durata.Ore}/{Episodi.Durata.Minuti}/{Episodi.Durata.Secondi} |Sentito: {Episodi.SiAscoltato}.\n";
         }
+        public override string Print2()
+        {
+            return $"{base.Print()} |Descrizione: {Descrizione}";
+        }
     }
-}
+    }

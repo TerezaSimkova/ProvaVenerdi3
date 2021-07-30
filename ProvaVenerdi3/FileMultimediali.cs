@@ -22,6 +22,10 @@ namespace ProvaVenerdi3
         {
             return $"*Titolo* {Titolo} |Autore: {Autore.Nome} {Autore.Cognome}| {Autore.DataDiNascita.Year}/{Autore.DataDiNascita.Month}/{Autore.DataDiNascita.Day}.";
         }
+        public virtual string Print2()
+        {
+            return $"*Titolo* {Titolo} |Autore: {Autore.Nome} {Autore.Cognome}| {Autore.DataDiNascita.Year}/{Autore.DataDiNascita.Month}/{Autore.DataDiNascita.Day}";
+        }
 
     }
 
